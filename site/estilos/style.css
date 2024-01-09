@@ -140,3 +140,20 @@ input{
 
     
 }
+
+.field .item {
+    width: 93%;
+
+    padding: 18px;
+
+    background-color: rgba(43, 39, 39, 0.575);
+
+    font-size: 18px;
+
+    border: solid rgb(8, 7, 7);
+
+    border-radius: 30px;
+
+    font-family: "Poppins";
+
+}
