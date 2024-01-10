@@ -2,6 +2,7 @@
 
 * {
     margin-top 0px;
+
 }
 
 body{
@@ -19,16 +20,19 @@ h1 {
     text-align: center;
 
     color: white;
+
+    text-decoration: underline;
 }
 
 p {
     text-align: center;
 
     color: white;
+
 }
 
 fieldset {
-    height: 1370px;
+    height: 3000px;
     
     width: 600px;
     
@@ -156,4 +160,39 @@ input{
 
     font-family: "Poppins";
 
+
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+.fim {
+   color: rgb(238, 241, 255);
+
+   font-family: "Poppins";
+
+    text-align: center;
+
+    font-size: 17px;
+
+}
+
+form button {
+    padding: 12px 32px;
+    background: #F5F5DC;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: none;
 }
